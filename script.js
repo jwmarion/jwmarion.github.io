@@ -194,7 +194,7 @@ function cTurn(){
     if($('.reset').is(":visible") === false){
       if(win === false){
         if($(this).css('background-image') === 'none'){
-          $(this).css('background-image','url(./media/ie.png');
+          $(this).css('background-image','url("./media/ie.png")');
           count++;
           entry($(this).attr('class'), 1);
           winCondition();
