@@ -1,5 +1,5 @@
 body{
-    background-image: url('./media/sports.png');
+    background-image: url('./media/Sports.png');
 }
 .main{
   box-sizing: border-box;
@@ -20,7 +20,7 @@ body{
   clear: both;
 }
 .reset{
-  background-image: url('./media/chrome.png');
+  background-image: url('media/chrome.png');
   float: left;
   height: 200px;
   width: 200px;
