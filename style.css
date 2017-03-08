@@ -1,0 +1,84 @@
+body{
+    background-image: url('./media/sports.png');
+}
+.main{
+  box-sizing: border-box;
+  float: left;
+  margin-left: 25%;
+}
+
+.title h1{
+  text-align: center;
+  padding-bottom: none;
+  margin-bottom: none;
+
+}
+.title{
+  margin-left: 15%;
+  padding-left: 3%;
+  float: left;
+  clear: both;
+}
+.reset{
+  background-image: url('./media/chrome.png');
+  float: left;
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  font-weight: bold;
+  background-color: white;
+  color: white;
+
+}
+
+.board{
+  float: left;
+}
+
+.square{
+  float: left;
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+}
+
+
+
+.tl{
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+}
+
+.tm{
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+
+}
+.tr{
+  border-bottom: 4px solid black;
+
+}
+
+.ml{
+  clear: both;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+}
+
+.mm{
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+}
+
+.mr{
+  border-bottom: 4px solid black;
+}
+
+.bl{
+  clear: both;
+  border-right: 4px solid black;
+}
+
+.bm{
+  border-right: 4px solid black;
+}
